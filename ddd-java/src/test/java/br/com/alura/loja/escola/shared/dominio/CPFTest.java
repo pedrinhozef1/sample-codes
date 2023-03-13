@@ -1,5 +1,6 @@
-package br.com.alura.escola.shared.dominio;
+package br.com.alura.loja.escola.shared.dominio;
 
+import br.com.alura.escola.shared.dominio.CPF;
 import org.junit.jupiter.api.Test;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;

@@ -6,11 +6,13 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="loja" />
         <module name="escola" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="escola" target="11" />
+      <module name="loja" target="17" />
     </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">

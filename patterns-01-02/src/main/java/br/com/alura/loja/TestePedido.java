@@ -3,7 +3,6 @@ package br.com.alura.loja;
 import br.com.alura.loja.pedido.*;
 
 import java.math.BigDecimal;
-import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
 

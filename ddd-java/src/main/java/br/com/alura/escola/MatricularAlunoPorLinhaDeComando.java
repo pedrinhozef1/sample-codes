@@ -22,7 +22,7 @@ public class MatricularAlunoPorLinhaDeComando {
 		
 		MatricularAluno matricular = new MatricularAluno(new RepositorioDeAlunosEmMemoria(), publicador);
 		matricular.executa(
-				new MatricularAlunoDto(nome, 
+				new MatricularAlunoDto(nome,
 						cpf, 
 						email));
 

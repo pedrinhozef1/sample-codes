@@ -3,7 +3,6 @@ package br.com.alura.loja;
 import br.com.alura.loja.pedido.*;
 
 import java.math.BigDecimal;
-import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
 
@@ -17,8 +16,9 @@ public class TestePedido {
 
         EmailService emailService = new EmailService();
         PedidoService pedidoService = new PedidoService();
+        LogDePedido logDePedido = new LogDePedido();
 
-        List acoes = Arrays.asList(emailService, pedidoService);
+        List acoes = Arrays.asList(emailService, pedidoService, logDePedido);
 
         GeraPedidoHandler handler = new GeraPedidoHandler(acoes);
         handler.execute(gerarPedido);

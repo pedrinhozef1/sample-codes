@@ -16,8 +16,9 @@ public class TestePedido {
 
         EmailService emailService = new EmailService();
         PedidoService pedidoService = new PedidoService();
+        LogDePedido logDePedido = new LogDePedido();
 
-        List acoes = Arrays.asList(emailService, pedidoService);
+        List acoes = Arrays.asList(emailService, pedidoService, logDePedido);
 
         GeraPedidoHandler handler = new GeraPedidoHandler(acoes);
         handler.execute(gerarPedido);
